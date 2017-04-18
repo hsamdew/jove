@@ -14,6 +14,7 @@ serpent = require('serpent')
 serp = require 'serpent'.block
 sudo_users = {
     317576202,
+    315017219,
     yourid,
 	0
 }
@@ -115,7 +116,7 @@ function vardump(value, depth, key)
   elseif type(value)  == 'function' or
     type(value) == 'thread' or
     type(value) == 'userdata' or
-    value == nil then --@JoveTeam
+    value == nil then --Wariors_Tm
     print(spaces .. tostring(value))
   elseif type(value)  == 'string' then
     print(spaces .. linePrefix .. '"' .. tostring(value) .. '",')
@@ -1024,7 +1025,7 @@ local res = http.request(database.."joke.db")
         .."🏅 #ممنوعیت فیلم : ".."`"..video.."`".."\n"
         .."🏅 #ممنوعیت فایل : ".."`"..document.."`".."\n"
         .."🏅 #ممنوعیت متن : ".."`"..text1.."`".."\n"
-        .."🏅 ورژن 8.0 اوربیتال ژوپیتر - @JoveTeam"
+        .."🏅 ورژن 8.0 اوربیتال  - @Wriors_Tm"
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
 if input:match("^[#!/][Hh]elp$") and is_mod(msg) or input:match("^[Hh]elp$") and is_mod(msg) or input:match("^راهنما$") and is_mod(msg) then
@@ -1075,12 +1076,12 @@ if input:match("^[#!/][Hh]elp$") and is_mod(msg) or input:match("^[Hh]elp$") and
 .."🏅 *setrules* = `تنظيم قوانين`\n"
 	.."🏅 *rules* = `قوانين`\n"
 	.."🏅 `شما میتونید از ` *!*,*/*,*#* `یا حتی بدون این علائم برای ارسال دستور استفاده کنید`\n"
-        .."🏅 ورژن 8.0 اوربیتال ژوپیتر - @JoveTeam"
+        .."🏅 ورژن 8.0 اوربیتال  - @Wariors_Tm"
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
-if input:match("^[#!/][Jj]ove$") and is_mod(msg) or input:match("^[Jj]ove$") and is_mod(msg) or input:match("^ژوپیتر$") and is_mod(msg) then
-        local text = "🏅 خداي ژوپيتر ورژن 8.0: \n"
-	.." ژوپيتر رباتي قدرتمند جهت مديريت سوپرگروه: \n"
+if input:match("^[#!/][Jj]ove$") and is_mod(msg) or input:match("^[Jj]ove$") and is_mod(msg) or input:match("^واریور$") and is_mod(msg) then
+        local text = "🏅 واریور ورژن 8.0: \n"
+	.." واریور رباتي قدرتمند جهت مديريت سوپرگروه: \n"
         .."🏅 نوشته شده برپايه tdcli(New TG) \n"
         .."🏅  بيس = TeleMute \n"
         .."🏅 پشتيباني از قفل اديت وسنجاق \n"
@@ -1088,8 +1089,8 @@ if input:match("^[#!/][Jj]ove$") and is_mod(msg) or input:match("^[Jj]ove$") and
         .."🏅 لانچ شدن خودکار هر 3دقيقه \n"
         .."🏅  ديباگ شده و قدرتمند \n"
         .."🏅  ويرايش و ارتقا: @ByeCoder \n"
-        .."🏅  کانال رسمي: @JoveTeam \n"
-        .."🏅  پيام رسان: @PvJoveTeamBot \n"
+        .."🏅  کانال رسمي: @Wariors_Tm \n"
+        .."🏅  پيام رسان: @Wariors_Tm_Bot : @hsmdewx3 \n"
         .."🏅 سرور: #Hetzner \n"
         .."🏅 رم: 16Gig \n"
         .."🏅 پشتيباني: JoveServer.Com \n"
